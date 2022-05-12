@@ -3,7 +3,7 @@ import { jsx, Container, Box, Grid, Text, Heading } from "theme-ui";
 import TextFeature from "components/text-feature";
 import Image from "components/image";
 // import { BsFillBellFill } from "react-icons/bs";
-import CoreFeatureThumb from "assets/iphone13.svg";
+import CoreFeatureThumb from "assets/iPhone 13 Pro.png";
 import Briefcase from "assets/core-feature/briefcase.svg";
 import Secure from "assets/core-feature/secure.svg";
 import Notify from "assets/core-feature/notify.svg";

@@ -86,7 +86,7 @@ export default function Dilog() {
     // alert(name);
 //     alert(JSON.stringify(name));
     const response = await fetch(
-      "https://demo.extensionerp.com/api/resource/Lead",
+      "https://core.extensionerp.com//api/resource/Lead",
 
       {
         method: "POST",
@@ -97,8 +97,8 @@ export default function Dilog() {
           email_id: email,
           phone: mobile,
           company_name: organization,
-          source: source,
-          designation: designation,
+          source: "Website",
+          designation: "Director",
         }),
         headers: {
           "Content-Type": "application/json",
@@ -187,7 +187,7 @@ export default function Dilog() {
             </Label>
           </Box> */}
             {/* <Label htmlFor="sound">Sound</Label> */}
-            <Select
+            {/* <Select
               name="source"
               id="source"
               placeholder="Select Source"
@@ -216,7 +216,7 @@ export default function Dilog() {
               <option>General Manager</option>
               <option>Functional Consultant</option>
               <option>Director</option>
-            </Select>
+            </Select> */}
             {/* <Label htmlFor="comment">Comment</Label> */}
             {/* <Textarea name="comment" id="comment" rows={6} mb={3} /> */}
             {/* <Flex mb={3}>
